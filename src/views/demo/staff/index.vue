@@ -38,6 +38,11 @@
                          slot-scope="scope">
                          {{ scope.row.deptName }}
                        </template>
+                        <template
+                          slot="levelId"
+                          slot-scope="scope">
+                          {{ scope.row.levelName }}
+                        </template>
                        <template
                         slot="deptIdForm"
                         slot-scope="scope">

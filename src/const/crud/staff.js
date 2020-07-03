@@ -97,11 +97,11 @@ export const tableOption = {
         "dicData":[
           {
             "label":"经销商",
-            "value":"1"
+            "value":1
           },
           {
             "label":"维修员",
-            "value":"2"
+            "value":2
           }
         ],
         addDisplay: false,
@@ -111,6 +111,7 @@ export const tableOption = {
         "prop":"levelId",
         "span":12,
         "type":"select",
+        "slot": true,
         hide: true,
         "label":"级别",
         "dicUrl":"http://pigx-gateway:9999/demo/level/list",
