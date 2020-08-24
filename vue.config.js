@@ -2,7 +2,7 @@
  * 配置参考:
  * https://cli.vuejs.org/zh/config/
  */
-const url = 'http://pigx-gateway:9999'
+const url = 'http://localhost:9999'
 const CompressionWebpackPlugin = require('compression-webpack-plugin')
 const productionGzipExtensions = ['js', 'css']
 module.exports = {
